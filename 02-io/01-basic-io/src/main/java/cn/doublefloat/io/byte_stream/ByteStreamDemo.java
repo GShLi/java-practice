@@ -22,5 +22,12 @@ public class ByteStreamDemo {
         os.write(content);
       }
     }
+
+    InputStreamReader reader = new InputStreamReader(new FileInputStream(filePath));
+    OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(copyFilePath));
+    new InputStreamReader(new FileInputStream(filePath));
+    FileReader fileReader = new FileReader(filePath);
+
+    StringReader stringReader = new StringReader("hello world");
   }
 }

@@ -5,15 +5,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>cn.doublefloat</groupId>
-    <artifactId>02-file-io</artifactId>
+    <artifactId>02-io</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>01-basic-io</artifactId>
 
   <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
